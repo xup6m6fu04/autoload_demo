@@ -1,0 +1,16 @@
+{
+    "name": "root/autoload",
+    "require": {
+    },
+    "autoload" : {
+        "classmap": [
+        	"library"
+        ],
+        "files": [
+    		"help/function.php"
+		],
+        "psr-4": {
+		   "App\\": "app/"
+		 }
+    }
+}
